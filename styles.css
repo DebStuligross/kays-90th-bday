@@ -404,6 +404,29 @@ section h2 {
 }
 .bring-note { font-size: 0.9rem; color: var(--muted); margin-bottom: 0.7rem; }
 
+/* Day headings inside the rides list — Friday / Sunday */
+.ride-day {
+    display: flex;
+    align-items: center;
+    gap: 0.55rem;
+    font-family: var(--serif);
+    font-variation-settings: 'SOFT' 40, 'WONK' 1, 'opsz' 48;
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--navy);
+    margin: 1.5rem 0 0.6rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 2px solid var(--rose-soft);
+}
+.ride-day:first-of-type { margin-top: 0.5rem; }
+.ride-day::before {
+    content: '';
+    flex: 0 0 auto;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--rose);
+}
+
 ul.bring { list-style: none; display: grid; gap: 0.45rem; }
 ul.bring li { position: relative; padding-left: 1.7rem; line-height: 1.5; }
 ul.bring li::before {
