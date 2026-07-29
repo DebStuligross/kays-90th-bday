@@ -275,6 +275,44 @@ a.addr {
 }
 .answer-value a.big:hover, a.addr:hover { border-color: var(--rose); color: var(--rose); }
 
+/* Check-in / check-out — the two times people most need at a glance */
+.times { display: flex; gap: 0.6rem; }
+.time-cell {
+    flex: 1;
+    text-align: center;
+    padding: 0.7rem 0.4rem 0.75rem;
+    background: var(--paper-deep);
+    border: 1px solid var(--rule);
+    border-top: 3px solid var(--rose);
+    border-radius: 3px;
+}
+.time-label {
+    display: block;
+    font-size: 0.66rem;
+    font-weight: 700;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--rose);
+}
+.time-day {
+    display: block;
+    font-family: var(--serif);
+    font-variation-settings: 'SOFT' 30, 'opsz' 36;
+    font-weight: 600;
+    font-size: 1.02rem;
+    color: var(--navy);
+    margin-top: 0.2rem;
+}
+.time-hour {
+    display: block;
+    font-family: var(--serif);
+    font-variation-settings: 'SOFT' 50, 'WONK' 1, 'opsz' 48;
+    font-weight: 900;
+    font-size: 1.55rem;
+    line-height: 1.15;
+    color: var(--navy);
+}
+
 .call-row { display: flex; flex-wrap: wrap; gap: 0.6rem; }
 .call-btn {
     flex: 1 1 auto;
