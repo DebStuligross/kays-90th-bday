@@ -450,6 +450,19 @@ ul.bring.must li::before { background: var(--rose); }
     box-shadow: 0 10px 26px -20px rgba(27,58,120,.5);
 }
 
+/* ═══ SCORE ═══ */
+.score {
+    display: block;
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    box-shadow: 0 10px 26px -20px rgba(27,58,120,.5);
+}
+
 /* ═══ MEALS ═══ */
 .meal {
     padding: 0.95rem 0;
